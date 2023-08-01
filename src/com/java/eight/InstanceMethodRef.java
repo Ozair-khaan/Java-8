@@ -17,10 +17,10 @@ public class InstanceMethodRef {
 		Additionn additionn= new Additionn();
 		
 		B b1=(a,b)-> System.out.println("The sum of two value is : "+(a+b));
-		b1.add(10, 90);
+		b1.add(10, 90);////The sum of two value is : 100
 		
 		B b2=additionn::sum;
-		b2.add(19, 11);
+		b2.add(19, 11); //The sum is : 30
 		
 	}
 
