@@ -23,6 +23,7 @@ public class SortedEx {
 		System.out.println("Reverse order with Comparator");
 		List<String> sortedList2 = companies.stream().sorted((p1, p2) -> p2.compareTo(p1)).collect(Collectors.toList());
 		System.out.println(sortedList2);
+		
 
 	}
 
